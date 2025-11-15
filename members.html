@@ -1,209 +1,180 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>草野球チーム「カナリア軍団」公式サイト | メンバー紹介</title>
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body data-page="members">
-  <!-- 共通ヘッダー -->
-  <header class="site-header">
-    <div class="inner">
-      <a href="index.html" class="brand">
-        <span>Canary Army</span>
-        <span>カナリア軍団</span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="メニューを開閉">☰</button>
-      <nav class="site-nav" aria-label="メインナビゲーション">
-        <a href="index.html" data-page="home">HOME</a>
-        <a href="members.html" data-page="members">メンバー</a>
-        <a href="contact.html" data-page="contact">お問い合わせ</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="section-inner">
-        <h1>メンバー紹介</h1>
-        <p>カナリア軍団の主なメンバーをご紹介します。ポジション別に個性豊かな仲間が揃い、互いの強みを活かしながら戦っています。</p>
-
-        <div class="member-filter">
-          <label for="position-filter">ポジションで絞り込む：</label>
-          <select id="position-filter" data-member-filter>
-            <option value="all">全て</option>
-            <option value="pitcher">投手</option>
-            <option value="catcher">捕手</option>
-            <option value="infield">内野手</option>
-            <option value="outfield">外野手</option>
-          </select>
-        </div>
-
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/igarashi.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#2</span>
-              <h2 class="member-name">五十嵐　優歩</h2>
-              <span class="position-badge position-pitcher">投手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「マイカーでは140km/h」</p>
-            </div>
-          </article>
-
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/iwasaki2.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#2</span>
-              <h2 class="member-name">岩崎　航</h2>
-              <span class="position-badge position-pitcher">内野手</span>
-              <p class="member-meta">右投げ右打ち / ※サイト管理者</p>
-              <p>「サーフィンと筋トレにはまっています！」</p>
-            </div>
-          </article>
-
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/uchida.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#3</span>
-              <h2 class="member-name">内田　良太</h2>
-              <span class="position-badge position-pitcher">外野手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「ボーリング大会のみ参加します」</p>
-            </div>
-          </article>
-
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/baba.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#4</span>
-              <h2 class="member-name">馬場　弦也</h2>
-              <span class="position-badge position-pitcher">内野手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「レアキャラ」</p>
-            </div>
-          </article>
-
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/asami.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#5</span>
-              <h2 class="member-name">井戸本　麻美</h2>
-              <span class="position-badge position-pitcher">内野手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「Welcome to 野毛」</p>
-            </div>
-          </article>
-            
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/araki.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#6</span>
-              <h2 class="member-name">荒木　潤平</h2>
-              <span class="position-badge position-pitcher">捕手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「媚びぬ！退かぬ！省みぬ！」</p>
-            </div>
-          </article>
-            
-          <div class="member-grid">
-          <article class="member-card" data-position="pitcher">
-            <div class="member-photo">
-              <img src="images/nagatani3.jpg" alt="写真">
-            </div>
-            <div class="member-body">
-              <span class="member-number">#7</span>
-              <h2 class="member-name">長谷　悠樹</h2>
-              <span class="position-badge position-pitcher">内野手</span>
-              <p class="member-meta">右投げ右打ち</p>
-              <p>「Ohana」</p>
-            </div>
-          </article> 
-            
-            <article class="member-card" data-position="catcher">
-            <div class="member-photo">写真準備中</div>
-            <div class="member-body">
-              <span class="member-number">#27</span>
-              <h2 class="member-name">佐藤 進</h2>
-              <span class="position-badge position-catcher">捕手</span>
-              <p class="member-meta">右投げ右打ち / 投手陣を支える頼れる司令塔。</p>
-              <p>「緻密なリードで勝利を呼び込みます。」</p>
-            </div>
-          </article>
-
-          <article class="member-card" data-position="infield">
-            <div class="member-photo">写真準備中</div>
-            <div class="member-body">
-              <span class="member-number">#4</span>
-              <h2 class="member-name">高橋 海斗</h2>
-              <span class="position-badge position-infield">内野手</span>
-              <p class="member-meta">右投げ左打ち / 安定した守備とつなぎのバッティングが持ち味。</p>
-              <p>「どんな打球も諦めずに追いかけます！」</p>
-            </div>
-          </article>
-
-          <article class="member-card" data-position="infield">
-            <div class="member-photo">写真準備中</div>
-            <div class="member-body">
-              <span class="member-number">#6</span>
-              <h2 class="member-name">藤井 智也</h2>
-              <span class="position-badge position-infield">内野手</span>
-              <p class="member-meta">右投げ右打ち / 長打力のあるクラッチヒッター。</p>
-              <p>「ここ一番で頼れるバッターになります！」</p>
-            </div>
-          </article>
-
-          <article class="member-card" data-position="outfield">
-            <div class="member-photo">写真準備中</div>
-            <div class="member-body">
-              <span class="member-number">#8</span>
-              <h2 class="member-name">井上 陽</h2>
-              <span class="position-badge position-outfield">外野手</span>
-              <p class="member-meta">右投げ右打ち / 広い守備範囲と俊足が武器。</p>
-              <p>「どんな打球も追いかけて捕球します！」</p>
-            </div>
-          </article>
-
-          <article class="member-card" data-position="outfield">
-            <div class="member-photo">写真準備中</div>
-            <div class="member-body">
-              <span class="member-number">#23</span>
-              <h2 class="member-name">大森 遼</h2>
-              <span class="position-badge position-outfield">外野手</span>
-              <p class="member-meta">左投げ左打ち / パワフルなスイングでクリーンアップを担う。</p>
-              <p>「豪快な一発でスタンドを沸かせます！」</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- フッター -->
-  <footer class="site-footer">
+<main>
+  <section class="section">
     <div class="section-inner">
-      <small>© カナリア軍団 All Rights Reserved.</small>
-    </div>
-  </footer>
+      <h1>メンバー紹介</h1>
+      <p>カナリア軍団の主なメンバーをご紹介します。ポジション別に個性豊かな仲間が揃い、互いの強みを活かしながら戦っています。</p>
 
-  <script src="assets/main.js"></script>
-</body>
-</html>
+      <div class="member-filter">
+        <label for="position-filter">ポジションで絞り込む：</label>
+        <select id="position-filter" data-member-filter>
+          <option value="all">全て</option>
+          <option value="pitcher">投手</option>
+          <option value="catcher">捕手</option>
+          <option value="infield">内野手</option>
+          <option value="outfield">外野手</option>
+        </select>
+      </div>
+
+      <!-- ★ member-grid は 1 つだけ -->
+      <div class="member-grid">
+
+        <!-- 五十嵐さん：投手 -->
+        <article class="member-card" data-position="pitcher">
+          <div class="member-photo">
+            <img src="images/igarashi.jpg" alt="五十嵐 優歩の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#1</span>
+            <h2 class="member-name">五十嵐　優歩</h2>
+            <span class="position-badge position-pitcher">投手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「マイカーでは140km/h」</p>
+          </div>
+        </article>
+
+        <!-- 岩崎さん：内野手 -->
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">
+            <img src="images/iwasaki2.jpg" alt="岩崎 航の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#2</span>
+            <h2 class="member-name">岩崎　航</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ右打ち / ※サイト管理者</p>
+            <p>「サーフィンと筋トレにはまっています！」</p>
+          </div>
+        </article>
+
+        <!-- 内田さん：外野手 -->
+        <article class="member-card" data-position="outfield">
+          <div class="member-photo">
+            <img src="images/uchida.jpg" alt="内田 良太の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#3</span>
+            <h2 class="member-name">内田　良太</h2>
+            <span class="position-badge position-outfield">外野手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「ボーリング大会のみ参加します」</p>
+          </div>
+        </article>
+
+        <!-- 馬場さん：内野手 -->
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">
+            <img src="images/baba.jpg" alt="馬場 弦也の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#4</span>
+            <h2 class="member-name">馬場　弦也</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「レアキャラ」</p>
+          </div>
+        </article>
+
+        <!-- 井戸本さん：内野手 -->
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">
+            <img src="images/asami.jpg" alt="井戸本 麻美の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#5</span>
+            <h2 class="member-name">井戸本　麻美</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「Welcome to 野毛」</p>
+          </div>
+        </article>
+
+        <!-- 荒木さん：捕手 -->
+        <article class="member-card" data-position="catcher">
+          <div class="member-photo">
+            <img src="images/araki.jpg" alt="荒木 潤平の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#6</span>
+            <h2 class="member-name">荒木　潤平</h2>
+            <span class="position-badge position-catcher">捕手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「媚びぬ！退かぬ！省みぬ！」</p>
+          </div>
+        </article>
+
+        <!-- 長谷さん：内野手 -->
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">
+            <img src="images/nagatani3.jpg" alt="長谷 悠樹の写真">
+          </div>
+          <div class="member-body">
+            <span class="member-number">#7</span>
+            <h2 class="member-name">長谷　悠樹</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ右打ち</p>
+            <p>「Ohana」</p>
+          </div>
+        </article>
+
+        <!-- ここから元のダミーメンバーたち -->
+
+        <article class="member-card" data-position="catcher">
+          <div class="member-photo">写真準備中</div>
+          <div class="member-body">
+            <span class="member-number">#27</span>
+            <h2 class="member-name">佐藤 進</h2>
+            <span class="position-badge position-catcher">捕手</span>
+            <p class="member-meta">右投げ右打ち / 投手陣を支える頼れる司令塔。</p>
+            <p>「緻密なリードで勝利を呼び込みます。」</p>
+          </div>
+        </article>
+
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">写真準備中</div>
+          <div class="member-body">
+            <span class="member-number">#4</span>
+            <h2 class="member-name">高橋 海斗</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ左打ち / 安定した守備とつなぎのバッティングが持ち味。</p>
+            <p>「どんな打球も諦めずに追いかけます！」</p>
+          </div>
+        </article>
+
+        <article class="member-card" data-position="infield">
+          <div class="member-photo">写真準備中</div>
+          <div class="member-body">
+            <span class="member-number">#6</span>
+            <h2 class="member-name">藤井 智也</h2>
+            <span class="position-badge position-infield">内野手</span>
+            <p class="member-meta">右投げ右打ち / 長打力のあるクラッチヒッター。</p>
+            <p>「ここ一番で頼れるバッターになります！」</p>
+          </div>
+        </article>
+
+        <article class="member-card" data-position="outfield">
+          <div class="member-photo">写真準備中</div>
+          <div class="member-body">
+            <span class="member-number">#8</span>
+            <h2 class="member-name">井上 陽</h2>
+            <span class="position-badge position-outfield">外野手</span>
+            <p class="member-meta">右投げ右打ち / 広い守備範囲と俊足が武器。</p>
+            <p>「どんな打球も追いかけて捕球します！」</p>
+          </div>
+        </article>
+
+        <article class="member-card" data-position="outfield">
+          <div class="member-photo">写真準備中</div>
+          <div class="member-body">
+            <span class="member-number">#23</span>
+            <h2 class="member-name">大森 遼</h2>
+            <span class="position-badge position-outfield">外野手</span>
+            <p class="member-meta">左投げ左打ち / パワフルなスイングでクリーンアップを担う。</p>
+            <p>「豪快な一発でスタンドを沸かせます！」</p>
+          </div>
+        </article>
+
+      </div><!-- /.member-grid -->
+
+    </div>
+  </section>
+</main>
