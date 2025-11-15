@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>草野球チーム「カナリア軍団」公式サイト | メンバー紹介</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="members">
+  <!-- 共通ヘッダー -->
+  <header class="site-header">
+    <div class="inner">
+      <a href="index.html" class="brand">
+        <span>Canary Army</span>
+        <span>カナリア軍団</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="メニューを開閉">☰</button>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="index.html" data-page="home">HOME</a>
+        <a href="members.html" data-page="members">メンバー</a>
+        <a href="contact.html" data-page="contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1>メンバー紹介</h1>
+        <p>カナリア軍団の主なメンバーをご紹介します。ポジション別に個性豊かな仲間が揃い、互いの強みを活かしながら戦っています。</p>
+
+        <div class="member-filter">
+          <label for="position-filter">ポジションで絞り込む：</label>
+          <select id="position-filter" data-member-filter>
+            <option value="all">全て</option>
+            <option value="pitcher">投手</option>
+            <option value="catcher">捕手</option>
+            <option value="infield">内野手</option>
+            <option value="outfield">外野手</option>
+          </select>
+        </div>
+
+        <div class="member-grid">
+          <article class="member-card" data-position="pitcher">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#11</span>
+              <h2 class="member-name">山田 翼</h2>
+              <span class="position-badge position-pitcher">投手</span>
+              <p class="member-meta">右投げ右打ち / 伸びのあるストレートが武器のエース。</p>
+              <p>「マウンドからチームを勢いづけます！」</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-position="catcher">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#27</span>
+              <h2 class="member-name">佐藤 進</h2>
+              <span class="position-badge position-catcher">捕手</span>
+              <p class="member-meta">右投げ右打ち / 投手陣を支える頼れる司令塔。</p>
+              <p>「緻密なリードで勝利を呼び込みます。」</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-position="infield">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#4</span>
+              <h2 class="member-name">高橋 海斗</h2>
+              <span class="position-badge position-infield">内野手</span>
+              <p class="member-meta">右投げ左打ち / 安定した守備とつなぎのバッティングが持ち味。</p>
+              <p>「どんな打球も諦めずに追いかけます！」</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-position="infield">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#6</span>
+              <h2 class="member-name">藤井 智也</h2>
+              <span class="position-badge position-infield">内野手</span>
+              <p class="member-meta">右投げ右打ち / 長打力のあるクラッチヒッター。</p>
+              <p>「ここ一番で頼れるバッターになります！」</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-position="outfield">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#8</span>
+              <h2 class="member-name">井上 陽</h2>
+              <span class="position-badge position-outfield">外野手</span>
+              <p class="member-meta">右投げ右打ち / 広い守備範囲と俊足が武器。</p>
+              <p>「どんな打球も追いかけて捕球します！」</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-position="outfield">
+            <div class="member-photo">写真準備中</div>
+            <div class="member-body">
+              <span class="member-number">#23</span>
+              <h2 class="member-name">大森 遼</h2>
+              <span class="position-badge position-outfield">外野手</span>
+              <p class="member-meta">左投げ左打ち / パワフルなスイングでクリーンアップを担う。</p>
+              <p>「豪快な一発でスタンドを沸かせます！」</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="section-inner">
+      <small>© カナリア軍団 All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
