@@ -421,7 +421,7 @@ textarea {
 
 .score-card ul li {
   padding: 0.6rem 0;
-  border-bottom: 1px dashed var(--color-border);
+  border-bottom: 1px dotted var(--color-border); /* ← dashed から dotted に変更 */
   font-weight: 600;
 }
 
@@ -430,6 +430,13 @@ textarea {
   font-size: 0.9rem;
   font-weight: 400;
   color: #555;
+}
+
+/* スコアと次の予定の間に入れる点線 */
+.schedule-divider {
+  border: 0;
+  border-top: 1px dotted var(--color-border);
+  margin: 1.5rem 0;
 }
 
 /* フォトギャラリー */
